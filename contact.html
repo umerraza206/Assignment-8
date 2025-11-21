@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <form action="./submitform.html" method="get">
+        <div>
+            <label for="name">Name</label>
+            <BR>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name">
+            <br>
+            <br>
+        </div>
+        <div>       
+            <label for="email">Email</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email"> 
+            <br>   
+            <br>
+        </div>
+        <div>    
+            <label for="password">Password</label>
+            <br>
+            <input type="password" id="password" name="password" placeholder="Enter Your Password">
+            <br><br>
+        </div>
+        <div>
+            <label for="number">Phone Number</label>
+            <br>
+            <input type="number" placeholder="Enter Your Phone Number" id="number" > 
+            <br>
+            <br>
+        </div>
+        <div>        
+            <label for="messages">Messages</label>
+            <br>
+            <textarea name="messages" id="messages" cols="30" rows="5" placeholder="Enter Your Text"></textarea>
+            <br>
+            <br>
+        </div>
+        <div>  
+            <span>Gender</span>
+            <br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="Gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="Gender" value="Female">
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="Gender" value="Other"> 
+            <br>
+            <br>   
+            
+        </div>
+        <div>    
+            <span>Hobby</span> 
+            <br>
+            
+            <label for="Cricket">Cricket</label>
+            <input type="checkbox" name="hobby" id="Cricket">
+            <label for="gta5">Video Game</label>
+            <input type="checkbox" name="hobby" id="gta5">
+            <label for="football">Foot Ball</label>
+            <input type="checkbox" name="hobby" id="football">
+            <br>
+            <br>
+        </div>
+        <div> 
+            <label for="country"> Country</label><br> 
+            <select name="country" id="country">
+                <option value="pakistan">PAKISTAN</option>
+                <option value="china">CHINA</option>
+                <option value="germany">GERMANY</option>
+                <option value="usa">USA</option>
+                <option value="newzealand">NEW ZEALAND</option>
+            </select>
+            <br>
+            <br>
+        </div>
+        <div>    
+            <button type="submit"> Submit</button>
+            <button type="reset"> reset</button>
+        </div>    
+
+
+
+    </form>
+</body>
+</html>
